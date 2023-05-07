@@ -5,6 +5,7 @@ GEM
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.9)
+    pandoc-ruby (2.1.7)
     puma (6.2.2)
       nio4r (~> 2.0)
     rack (2.2.7)
@@ -28,6 +29,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  pandoc-ruby (~> 2.0, >= 2.0.2)
   puma (~> 6.2)
   sinatra (= 3.0.6)
   sinatra-contrib
